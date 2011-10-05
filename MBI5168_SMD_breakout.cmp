@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPCB (2011-07-08)-stable date = Wed 05 Oct 2011 10:53:45 AM CEST
+
+BeginCmp
+TimeStamp = /4E8BFEF3;
+Reference = C1;
+ValeurCmp = 10µF;
+IdModule  = -C1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E8BF590;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = -C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E8BF562;
+Reference = IC1;
+ValeurCmp = MBI5168;
+IdModule  = MADW__SO16;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E8BF887;
+Reference = P1;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E8BF8E8;
+Reference = P2;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E8BF96D;
+Reference = P3;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E8BF977;
+Reference = P4;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E8C10AE;
+Reference = P5;
+ValeurCmp = CONN_2;
+IdModule  = MADW__SMD-solder-bridge;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E8BF5CC;
+Reference = R1;
+ValeurCmp = 180;
+IdModule  = -R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E8BF5E3;
+Reference = RV1;
+ValeurCmp = 1k;
+IdModule  = RV2;
+EndCmp
+
+EndListe
