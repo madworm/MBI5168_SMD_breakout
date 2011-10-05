@@ -1,88 +1,93 @@
-# EESchema Netlist Version 1.1 created  Wed 05 Oct 2011 10:54:39 AM CEST
+# EESchema Netlist Version 1.1 created  Wed 05 Oct 2011 12:16:36 PM CEST
 (
- ( /4E8C10AE $noname  P5 CONN_2 {Lib=CONN_2}
-  (    1 GNDPWR )
-  (    2 GND )
+ ( /4E8BFEF3 -C1206 C1 10µF
+  ( 1 VCC )
+  ( 2 GND )
  )
- ( /4E8BFEF3 $noname  C1 10µF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
+ ( /4E8BF590 -C0805 C2 100nF
+  ( 1 VCC )
+  ( 2 GND )
  )
- ( /4E8BF977 $noname  P4 CONN_8 {Lib=CONN_8}
-  (    1 VCC )
-  (    2 /SCK )
-  (    3 /SDO )
-  (    4 /CS )
-  (    5 /ENABLE )
-  (    6 ? )
-  (    7 /V+_LED )
-  (    8 GNDPWR )
+ ( /4E8BF562 MADW__SO16 IC1 MBI5168
+  ( 1 GNDPWR )
+  ( 2 /MOSI/SDI )
+  ( 3 /SCK )
+  ( 4 /CS )
+  ( 5 /LED0 )
+  ( 6 /LED1 )
+  ( 7 /LED2 )
+  ( 8 /LED3 )
+  ( 9 /LED4 )
+  ( 10 /LED5 )
+  ( 11 /LED6 )
+  ( 12 /LED7 )
+  ( 13 /ENABLE )
+  ( 14 /SDO )
+  ( 15 N-000014 )
+  ( 16 VCC )
  )
- ( /4E8BF96D $noname  P3 CONN_8 {Lib=CONN_8}
-  (    1 VCC )
-  (    2 /SCK )
-  (    3 /MOSI/SDI )
-  (    4 /CS )
-  (    5 /ENABLE )
-  (    6 ? )
-  (    7 /V+_LED )
-  (    8 GNDPWR )
+ ( /4E8BF887 SIL-8 P1 CONN_8
+  ( 1 /LED0 )
+  ( 2 /LED1 )
+  ( 3 /LED2 )
+  ( 4 /LED3 )
+  ( 5 /LED4 )
+  ( 6 /LED5 )
+  ( 7 /LED6 )
+  ( 8 /LED7 )
  )
- ( /4E8BF8E8 $noname  P2 CONN_8 {Lib=CONN_8}
-  (    1 /V+_LED )
-  (    2 /V+_LED )
-  (    3 /V+_LED )
-  (    4 /V+_LED )
-  (    5 /V+_LED )
-  (    6 /V+_LED )
-  (    7 /V+_LED )
-  (    8 /V+_LED )
+ ( /4E8BF8E8 SIL-8 P2 CONN_8
+  ( 1 /V+_LED )
+  ( 2 /V+_LED )
+  ( 3 /V+_LED )
+  ( 4 /V+_LED )
+  ( 5 /V+_LED )
+  ( 6 /V+_LED )
+  ( 7 /V+_LED )
+  ( 8 /V+_LED )
  )
- ( /4E8BF887 $noname  P1 CONN_8 {Lib=CONN_8}
-  (    1 N-000013 )
-  (    2 N-000014 )
-  (    3 N-000015 )
-  (    4 N-000016 )
-  (    5 N-000020 )
-  (    6 N-000019 )
-  (    7 N-000017 )
-  (    8 N-000018 )
+ ( /4E8BF96D SIL-8 P3 CONN_8
+  ( 1 VCC )
+  ( 2 /SCK )
+  ( 3 /MOSI/SDI )
+  ( 4 /CS )
+  ( 5 /ENABLE )
+  ( 6 ? )
+  ( 7 /V+_LED )
+  ( 8 GNDPWR )
  )
- ( /4E8BF5E3 $noname  RV1 1k {Lib=POT}
-  (    1 GND )
-  (    2 GND )
-  (    3 N-000007 )
+ ( /4E8BF977 SIL-8 P4 CONN_8
+  ( 1 VCC )
+  ( 2 /SCK )
+  ( 3 /SDO )
+  ( 4 /CS )
+  ( 5 /ENABLE )
+  ( 6 ? )
+  ( 7 /V+_LED )
+  ( 8 GNDPWR )
  )
- ( /4E8BF5CC $noname  R1 180 {Lib=R}
-  (    1 N-000007 )
-  (    2 N-000012 )
+ ( /4E8C10AE MADW__SMD-solder-bridge P5 CONN_2
+  ( 1 GNDPWR )
+  ( 2 GND )
  )
- ( /4E8BF590 $noname  C2 100nF {Lib=C}
-  (    1 VCC )
-  (    2 GND )
+ ( /4E8BF5CC -R0805 R1 180
+  ( 1 N-000008 )
+  ( 2 N-000014 )
  )
- ( /4E8BF562 $noname  IC1 MBI5168 {Lib=MBI5168}
-  (    1 GNDPWR )
-  (    2 /MOSI/SDI )
-  (    3 /SCK )
-  (    4 /CS )
-  (    5 N-000013 )
-  (    6 N-000014 )
-  (    7 N-000015 )
-  (    8 N-000016 )
-  (    9 N-000020 )
-  (   10 N-000019 )
-  (   11 N-000017 )
-  (   12 N-000018 )
-  (   13 /ENABLE )
-  (   14 /SDO )
-  (   15 N-000012 )
-  (   16 VCC )
+ ( /4E8BF5E3 RV2 RV1 1k
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 N-000008 )
  )
 )
 *
 { Allowed footprints by component:
 $component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
  SM*
  C?
  C1-1
@@ -93,89 +98,5 @@ $component R1
  SM0805
  R?-*
 $endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 1 "VCC" "VCC"
- C1 1
- IC1 16
- C2 1
- P4 1
- P3 1
-Net 2 "/V+ LED" "V+ LED"
- P2 6
- P2 8
- P2 5
- P2 4
- P2 3
- P2 2
- P3 7
- P4 7
- P2 7
- P2 1
-Net 3 "GND" "GND"
- P5 2
- C1 2
- RV1 2
- C2 2
- RV1 1
-Net 6 "/CS" "CS"
- P4 4
- IC1 4
- P3 4
-Net 7 "" ""
- RV1 3
- R1 1
-Net 8 "/MOSI/SDI" "MOSI/SDI"
- IC1 2
- P3 3
-Net 9 "/SCK" "SCK"
- P4 2
- IC1 3
- P3 2
-Net 10 "/ENABLE" "ENABLE"
- P4 5
- P3 5
- IC1 13
-Net 11 "/SDO" "SDO"
- P4 3
- IC1 14
-Net 12 "" ""
- R1 2
- IC1 15
-Net 13 "" ""
- IC1 5
- P1 1
-Net 14 "" ""
- P1 2
- IC1 6
-Net 15 "" ""
- P1 3
- IC1 7
-Net 16 "" ""
- IC1 8
- P1 4
-Net 17 "" ""
- P1 7
- IC1 11
-Net 18 "" ""
- P1 8
- IC1 12
-Net 19 "" ""
- P1 6
- IC1 10
-Net 20 "" ""
- P1 5
- IC1 9
-Net 21 "GNDPWR" "GNDPWR"
- P4 8
- IC1 1
- P3 8
- P5 1
-}
-#End
