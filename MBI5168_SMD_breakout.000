@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Fri 07 Oct 2011 02:20:51 PM CEST
+PCBNEW-BOARD Version 1 date Fri 07 Oct 2011 03:25:20 PM CEST
 
 # Created by Pcbnew(2011-07-08)-stable
 
@@ -61,7 +61,7 @@ PadSize 600 600
 PadDrill 320
 Pad2MaskClearance 0
 AuxiliaryAxisOrg 0 0
-PcbPlotParams (pcbplotparams (layerselection 2097152) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory gerber/))
+PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory gerber/))
 $EndSETUP
 
 $EQUIPOT
@@ -2053,7 +2053,7 @@ $EndPAD
 $EndMODULE  MADW__SMD-solder-bridge
 $TEXTPCB
 Te "!OE"
-Po 49300 28600 600 600 120 2700
+Po 49300 28550 600 600 120 2700
 De 21 1 0 Normal C
 $EndTEXTPCB
 $TEXTPCB
@@ -2133,12 +2133,12 @@ De 21 1 0 Normal C
 $EndTEXTPCB
 $TEXTPCB
 Te "V+"
-Po 47400 18300 600 600 120 2700
+Po 47300 18300 600 600 120 2700
 De 21 1 0 Normal C
 $EndTEXTPCB
 $TEXTPCB
 Te "!OE"
-Po 49400 18400 600 600 120 2700
+Po 49300 18350 600 600 120 2700
 De 21 1 0 Normal C
 $EndTEXTPCB
 $TEXTPCB
@@ -2158,12 +2158,12 @@ De 21 1 0 Normal C
 $EndTEXTPCB
 $TEXTPCB
 Te "5V"
-Po 53200 18150 600 600 120 2700
+Po 53300 18150 600 600 120 2700
 De 21 1 0 Normal C
 $EndTEXTPCB
 $TEXTPCB
 Te "5V"
-Po 53300 28400 600 600 120 2700
+Po 53300 28350 600 600 120 2700
 De 21 1 0 Normal C
 $EndTEXTPCB
 $TEXTPCB
