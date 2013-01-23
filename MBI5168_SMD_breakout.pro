@@ -38,7 +38,7 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=ref-packages
-LibName12=/home/robert/Arduino/KiCAD/my_parts
+LibName12=/home/robert/Arduino/KiCAD/LIBS/my_parts
 [eeschema]
 version=1
 LibDir=
@@ -101,4 +101,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/robert/Arduino/KiCAD/my_parts
+LibName31=/home/robert/Arduino/KiCAD/LIBS/my_parts
