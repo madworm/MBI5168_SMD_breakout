@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-07-08)-stable date = Thu 06 Oct 2011 09:17:15 AM CEST
+Cmp-Mod V01 Created by PcbNew date = Wed 23 Jan 2013 01:12:08 PM CET
 
 BeginCmp
 TimeStamp = /4E8BFEF3;
@@ -25,28 +25,28 @@ BeginCmp
 TimeStamp = /4E8BF887;
 Reference = P1;
 ValeurCmp = CONN_8;
-IdModule  = SIL-8;
+IdModule  = MADW__SIL-8;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E8BF8E8;
 Reference = P2;
 ValeurCmp = CONN_8;
-IdModule  = SIL-8;
+IdModule  = MADW__SIL-8;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E8BF96D;
 Reference = P3;
 ValeurCmp = CONN_8;
-IdModule  = SIL-8;
+IdModule  = MADW__SIL-8;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E8BF977;
 Reference = P4;
 ValeurCmp = CONN_8;
-IdModule  = SIL-8;
+IdModule  = MADW__SIL-8;
 EndCmp
 
 BeginCmp
